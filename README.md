@@ -1,8 +1,8 @@
-Chatbot Assistant
+## Chatbot Assistant
 
 A simple AI-powered chatbot using Streamlit and Google's Gemini API to provide conversational responses.
 
-Features
+# Features
 
 User-friendly interface built with Streamlit
 
@@ -10,10 +10,13 @@ AI-based responses powered by Gemini Pro
 
 Error handling with automatic retries
 
-Requirements
+# Requirements
 
-Python 3.8+
+`Python 3.8+`
 
-Streamlit
+Install:
 
-google-generativeai
+`Streamlit`
+
+`google-generativeai`
+
