@@ -4,7 +4,9 @@ import os
 import time
 from google.api_core.exceptions import InternalServerError
 
-genai.configure(api_key=('AIzaSyAwJCbQgLvODfQphn9XK7REPyVHp5eZYaI'))
+load_dotenv()
+# Configure the Generative AI API
+genai.configure(api_key=os.getenv('api_key'))
 
 model = genai.GenerativeModel('gemini-pro')
 chat = model.start_chat(history=[])
