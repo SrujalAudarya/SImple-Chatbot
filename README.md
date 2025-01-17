@@ -8,7 +8,7 @@ User-friendly interface built with Streamlit
 
 AI-based responses powered by Gemini Pro
 
-Error handling with automatic retries
+Error handling when issue has been occured by using try and expect
 
 ## Requirements
 
